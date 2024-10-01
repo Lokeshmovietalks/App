@@ -25,7 +25,19 @@
             <version>1.10.19</version>
             <scope>test</scope>
         </dependency>
-    </dependencies>
+	</dependencies>
+
+<distributionManagement>
+	<snapshotRepository>
+		<id>nexus</id>
+		<url></url>
+	</snapshotRepository>
+
+	<reepository>
+                <id>nexus</id>
+                <url></url>
+	</repository>
+</distributionManagement>
 
     <build>
         <plugins>
